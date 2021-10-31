@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * cada ruta que definamos,
+ */
+
 Route::get('/', function () {
     return "me cago en mi puta estampa!";
+});
+
+Route::get('mensaje', function (){
+   return "hola holita vecinito!";
 });
